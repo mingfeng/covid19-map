@@ -63,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "covid19-map:build"
+            "browserTarget": "covid19-map:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
